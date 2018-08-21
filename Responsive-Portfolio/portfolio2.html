@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+      <!--  meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+      <title>Portforlio</title>
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+      <link rel="stylesheet" type="text/css" href="assets/style.css"> 
+  
+      <style>
+      header{
+          float: right; 
+          color:blue;
+            }
+      </style>
+
+  </head>
+
+  <body>
+
+    <div>
+      <header>
+        
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs|pills" id="navId">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link active">MAIN</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+        </div>
+        
+        <script>
+            $('#navId a').click(e => {
+                e.preventDefault();
+                $(this).tab('show');
+            });
+        </script>
+
+      </header>
+    </div>
+
+    <div class="container-fluid" bg-1 text-left>
+            <h2 id="left">Taki Dhaliwal</h2>
+    </div>
+
+    <div class="container-fluid" style=background-image: url("dark-grey-terrazzo.png")>
+            <!-- <div class="bg-white">
+                <div class="row">
+            <br> 
+            <div class="col-6">   
+           <h3>My Portfolio</h3> </div>
+          <hr>
+            -->
+                <div class="bg-white">
+                    <div class="row">
+                        <div class="col-6">
+                                <h3>My Portfolio</h3> </div>
+                                <hr>
+                        </div>
+
+
+                        <div class="col-6">
+                            <img class="img1" src="assets/arch.jpg" alt="pic1" width="170" height="170"> 
+                        </div>
+                        <div class="col-6">
+                            <img class="img2" src="assets/eye.jpg" alt="pic2" width="170" height="170"> 
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md">
+                            <img class="img3" src="assets/saytar.jpg" alt="pic3" width="170" height="170">
+                        </div> 
+                        <div class="col-md">
+                            <img class="img4" src="assets/stone.jpg" alt="pic4" width="170" height="170">
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="col-6">
+                                    <img class="img1" src="assets/arch.jpg" alt="pic1" width="170" height="170"> 
+                                </div>
+                                <div class="col-6">
+                                </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-6">
+                                    <img class="img5" src="assets/drag.jpg" alt="pic5" width="170" height="170">
+                            </div>
+                            <div class="col-6">
+                            </div>
+                    </div>
+
+
+                    </div>
+                </div>
+        </div>
+    </div> 
+ 
+    <footer class="foot">
+        <p>copyright</p>
+    </footer>
+  
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

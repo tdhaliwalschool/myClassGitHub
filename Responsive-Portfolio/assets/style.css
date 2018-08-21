@@ -1,0 +1,112 @@
+<style>
+
+.header{
+    float: right; 
+    color:blue;
+}
+
+p { 
+    padding-left:5px; }
+
+
+.name{
+  h2{
+  float: none;
+  height:0;
+  top: 0;
+  right: 0;
+  margin-left: 10%;
+  margin-right: 20%;
+  padding: 2px;
+       }
+  }
+
+  h2{
+    float: none;
+    height:0;
+    top: 0;
+    right: 0;
+    margin-left: 10%; 
+    margin-right: 10%;
+    padding-bottom: 1%;
+   }
+
+ .img {
+  float:left;
+  padding-right:10px; 
+ }
+
+ .img5 {
+    float:left;
+    padding-right:10px; 
+    padding-left:20px;
+   }
+
+   .image-wrapper {
+        width: 50%;
+        margin: 5px;
+   }
+
+.img2,.img1,.img5 {
+    float:left;
+    padding: 5%;
+   }
+
+    .img3,.img4 {
+    float:none;
+    padding: 5%;
+   }
+
+ .navBar1,.navBar2,.navBar3 {
+      padding-right: 1%;
+      float:right;
+ }
+
+ .Inner, .box {
+      float:left;  
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-right: 100px;
+  margin-left: 100px; 
+     background-color: white;
+     padding: 3%;
+     padding:20px;
+     width: 960;
+     padding-bottom: 1%;
+ }
+
+
+ .containerMain {
+     clear:both;
+      /* background-color:brown; */
+      background-image: url("dark-grey-terrazzo.png"); /* The image used */
+      border-bottom-color: aqua;
+      border-bottom-width: 50px;
+
+ }
+
+ input[type=text], input[type=email], input[name=message]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[name=message]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+ .foot{
+  padding-top: 5px;
+  text-align: center;
+  color:white;
+   background-color: rgb(54, 54, 54);
+   border-top-color:red;
+   border-top-width: 10%;
+  clear: both;
+ }
+
+</style>
