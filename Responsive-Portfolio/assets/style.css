@@ -62,26 +62,27 @@ p {
       float:right;
  }
 
- .Inner, .box {
+ /* .Inner, .box {
       float:left;  
-  margin-top: 10px;
+  /* margin-top: 10px;
   margin-bottom: 25px;
   margin-right: 100px;
-  margin-left: 100px; 
+  margin-left: 100px;  */
      background-color: white;
      padding: 3%;
      padding:20px;
      width: 960;
      padding-bottom: 1%;
  }
+ */
 
 
- .containerMain {
+
+ /* .containerMain {
      clear:both;
-      /* background-color:brown; */
       background-image: url("dark-grey-terrazzo.png"); /* The image used */
-      border-bottom-color: aqua;
-      border-bottom-width: 50px;
+      /* border-bottom-color: aqua;
+      border-bottom-width: 50px; */ */
 
  }
 
@@ -104,7 +105,6 @@ input[name=message]  {
   text-align: center;
   color:white;
    background-color: rgb(54, 54, 54);
-   border-top-color:red;
    border-top-width: 10%;
   clear: both;
  }

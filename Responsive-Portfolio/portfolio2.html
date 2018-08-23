@@ -1,131 +1,191 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
-      <!--  meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-      <title>Portforlio</title>
 
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
- 
-      <link rel="stylesheet" type="text/css" href="assets/style.css"> 
-  
-      <style>
-      header{
-          float: right; 
-          color:blue;
-            }
-      </style>
+<!-- this is a comment -->
 
-  </head>
+<head>
+    <!--  meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <body>
+    <title>Portforlio</title>
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/style.css"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <style>
+        .img {
+            height: 200px;
+            background: #aaa;
+        }
+    </style>
+
+
+</head>
+
+<body>
 
     <div>
-      <header>
-        
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs|pills" id="navId">
-            <li class="nav-item">
-                <a href="index.html" class="nav-link active">MAIN</a>
-            </li>
-            <li class="nav-item">
-                <a href="contact.html" class="nav-link">CONTACT</a>
-            </li>
-            <li class="nav-item">
-                <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
-            </li>
-        </ul>
+        <header>
 
-        <!-- Tab panes -->
-        <div class="tab-content">
-            <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
-        </div>
-        
-        <script>
-            $('#navId a').click(e => {
-                e.preventDefault();
-                $(this).tab('show');
-            });
-        </script>
-
-      </header>
-    </div>
-
-    <div class="container-fluid" bg-1 text-left>
-            <h2 id="left">Taki Dhaliwal</h2>
-    </div>
-
-    <div class="container-fluid" style=background-image: url("dark-grey-terrazzo.png")>
-            <!-- <div class="bg-white">
+            <!-- Nav tabs -->
+            <div class="container">
                 <div class="row">
-            <br> 
-            <div class="col-6">   
-           <h3>My Portfolio</h3> </div>
-          <hr>
-            -->
-                <div class="bg-white">
-                    <div class="row">
-                        <div class="col-6">
-                                <h3>My Portfolio</h3> </div>
-                                <hr>
-                        </div>
-
-
-                        <div class="col-6">
-                            <img class="img1" src="assets/arch.jpg" alt="pic1" width="170" height="170"> 
-                        </div>
-                        <div class="col-6">
-                            <img class="img2" src="assets/eye.jpg" alt="pic2" width="170" height="170"> 
-                        </div>
+                    <div class="col-sm-4" style="text-align-last: center">
+                        <h3 style=" background-color: teal">Taki Dhaliwal</h3>
                     </div>
-
-                    <div class="row">
-                        <div class="col-md">
-                            <img class="img3" src="assets/saytar.jpg" alt="pic3" width="170" height="170">
-                        </div> 
-                        <div class="col-md">
-                            <img class="img4" src="assets/stone.jpg" alt="pic4" width="170" height="170">
-                        </div>
-                    </div>    
-                    <div class="row">
-                        <div class="col-6">
-                                    <img class="img1" src="assets/arch.jpg" alt="pic1" width="170" height="170"> 
-                                </div>
-                                <div class="col-6">
-                                </div>
-                    </div>
-                    <div class="row">
-                            <div class="col-6">
-                                    <img class="img5" src="assets/drag.jpg" alt="pic5" width="170" height="170">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                        <!-- <nav class="navbar navbar-expand-sm bg-light navbar-light"> -->
+                        <nav class="navbar navbar-expand-sm navbar-light">
+                            <!-- <a class="navbar-brand" href="#">Taki Dhaliwal</a> -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="col-6">
-                            </div>
-                    </div>
-
-
+                        </nav>
                     </div>
                 </div>
-        </div>
-    </div> 
- 
-    <footer class="foot">
-        <p>copyright</p>
-    </footer>
-  
-  </div>
+            </div>
+            <script>
+                $('#navId a').click(e => {
+                    e.preventDefault();
+                    $(this).tab('show');
+                });
+            </script>
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </header>
+    </div>
+
+    <div class="containerMain">
+        <div class="Inner">
+
+            <div class="container-fluid" style="center">
+                <div class="col-4"></div>
+                <div class="bg-white">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6">
+                            <h3>My Portfolio</h3>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="row" style="center">
+                        <div class="col-lg-6  col-md-4 col-sm-4 pic">
+                            <div class="card h-100">
+                                <a href="PLACEHOLD#">
+                                    <img class="card-img-top" src="assets/drag.jpg" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a href="#">Project One</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6  col-md-4 col-sm-4 pic">
+                            <div class="card h-100">
+                                <a href="PLACEHOLD#">
+                                    <img class="card-img-top" src="assets/drag.jpg" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a href="#">Project One</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-2 pic">
+                            <div class="card h-100">
+                                <a href="PLACEHOLD#">
+                                    <img class="card-img-top" src="assets/drag.jpg" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a href="#">Project One</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-2 pic">
+                            <div class="card h-100">
+                                <a href="PLACEHOLD#">
+                                    <img class="card-img-top" src="assets/drag.jpg" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a href="#">Project One</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 pic">
+                            <div class="card h-100">
+                                <a href="PLACEHOLD#">
+                                    <img class="card-img-top" src="assets/drag.jpg" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a href="#">Project One</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-4"></div>
+
+            </div>
+        </div>
+
+        <footer class="foot">
+            <p>copyright</p>
+        </footer>
+
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
